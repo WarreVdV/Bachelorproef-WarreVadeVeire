@@ -85,8 +85,9 @@
 }
 
 @Online{Vlaanderen2018a,
-  author  = {Onderwijs Vlaanderen},
+  author  = {{Onderwijs Vlaanderen}},
   date    = {2018},
+  editor  = {{Onderwijs Vlaanderen}},
   title   = {Uitgangspunten eindtermen Digitale competentie en mediawijsheid},
   url     = {https://onderwijsdoelen.be/uitgangspunten/4816},
   urldate = {2021-03-07},
@@ -101,7 +102,9 @@
 }
 
 @Online{Smartschool,
-  author  = {Smartschool},
+  author  = {{Smartschool}},
+  date    = {2019},
+  editor  = {{Smartschool}},
   title   = {Go! Navigator},
   url     = {https://ledeganck.smartschool.be/navigator/page/a3a9ca48-655e-4394-b049-ee8f31b15c13},
   urldate = {2021-03-08},
@@ -109,6 +112,7 @@
 
 @Online{Hughes,
   author  = {J. M. Hughes},
+  date    = {2013},
   editor  = {{Oreilly}},
   title   = {Arduino: A technical reference},
   url     = {https://www.oreilly.com/library/view/arduino-a-technical/9781491934319/ch01.html#:~:text=In 2005, building upon the,Institute Ivrea in Ivrea, Italy},
@@ -118,6 +122,7 @@
 @Online{Keim2019,
   author  = {Robert Keim},
   date    = {2019},
+  editor  = {{Robert Keim}},
   title   = {What Is a Microcontroller? The Defining Characteristics and Architecture of a Common Component},
   url     = {https://www.allaboutcircuits.com/technical-articles/what-is-a-microcontroller-introduction-component-characteristics-component/},
   urldate = {2021-03-29},
@@ -126,6 +131,7 @@
 @Online{IW2017,
   author  = {IW},
   date    = {2017},
+  editor  = {{BBC}},
   title   = {BBC micro:bit celebrates huge impact in first year, with 90% of students saying it helped show that anyone can code},
   url     = {https://www.bbc.co.uk/mediacentre/latestnews/2017/microbit-first-year},
   urldate = {2021-03-21},
@@ -212,7 +218,9 @@
 }
 
 @Online{Vlaanderen,
-  author  = {Katholiek Onderwijs Vlaanderen},
+  author  = {{Katholiek onderwijs Vlaanderen}},
+  date    = {2020},
+  editor  = {{Katholiek onderwijs Vlaanderen}},
   title   = {Concepten van computationeel denken},
   url     = {https://pro.katholiekonderwijs.vlaanderen/computationeel-denken/concepten},
   urldate = {2021-03-07},
@@ -262,6 +270,7 @@
 
 @Online{Singapore,
   author  = {{The Lab}},
+  date    = {2019-04-20},
   editor  = {{The Lab Singapore}},
   title   = {Why a Raspberry PI? Raspberry Pi vs Microbit},
   url     = {https://www.thelab.sg/why-a-raspberry-pi-raspberry-pi-vs-microbit/#:~:text=Raspberry Pi 3 is a,run a full operating system.&text=The BBC Micro Bit is suited to teach the raw,It's highly basic},
@@ -279,6 +288,7 @@
 @Online{Karani2020,
   author  = {Dhruvil Karani},
   date    = {2020-01-09},
+  editor  = {{Dhruvil Karani}},
   title   = {How does python work?},
   url     = {https://towardsdatascience.com/how-does-python-work-6f21fd197888},
   urldate = {2021-03-29},
