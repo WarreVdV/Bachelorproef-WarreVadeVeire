@@ -171,35 +171,13 @@ We starten eerst met de opbouw van de Python applicatie. Dit begint bij het make
     \label{fig:uitwerking1}
 \end{figure}
 
-Het volledige uitgewerkte project zal er uiteindelijk zo uit zien:
-\begin{lstlisting}[language=Python, caption=Volledige uitwerking van het raadspel in Python]
-import random
+Het volledige uitgewerkte project zal er uiteindelijk zo uit zien (zie figuur \ref{fig:uitwerkingAfgewerkt}).
 
-def raadspel():
-    print(f"Welkom bij het raad spel! Kies een getal tussen 1 en 100: ")
-    startSpel = input("Als je klaar bent om te beginnen, druk 'j'. Als je wilt stoppen, druk 'n'.").capitalize()
-
-    if startSpel == "J":
-        print(f"{startSpel}")
-        lageRand = 1
-        hogeRand = 100
-        feedback = ""
-        teller = 0
-        while(feedback!="G"):
-            print(f"Ik denk dat jouw getal ligt tussen {lageRand} en {hogeRand}. Ik heb momenteel {teller} keer geraden.")
-            gok = random.randint(lageRand, hogeRand)
-            feedback = input(f"Is jouw getal hoger (H) of lager (L) dan {gok}? Of heb ik het getal geraden? (G)?: ").capitalize()
-            if feedback == "L":
-                hogeRand = gok-1
-            elif feedback == "H":
-                lageRand = gok+1
-            teller=teller+1
-        print(f"Yay, we hebben jouw getal ({gok} geraden) in {teller} beurten!")
-
-    print("Vaarwel :)")
-
-raadspel()
-\end{lstlisting}
+\begin{figure}
+    \includegraphics[width=\linewidth]{uitgewerkt}
+    \caption{Het uitgewerkte raadspel}
+    \label{fig:uitwerkingAfgewerkt}
+\end{figure}
 
 \underline{De sequentie + voorwaarde}
 
@@ -281,7 +259,7 @@ We voegen daarom een print() methode uit BUITEN de lus.
 
 En zo is het project afgewerkt. Als een leerling op de speel-knop drukt (groene pijl links-bovenaan, zie figuur \ref{fig:uitwerking1}), start het spel in de shell. Volg de instructies en laat de computer uw getal raden.
 
-\emp{UITBREIDING}: Het spel werkt, maar is nog niet fout-vriendelijk. Als je per ongelijk een verkeerd antwoord ingeeft, is de kans groot dat het gekozen getal niet meer in het zoekgebied ligt. Ook zou het kunnen dat de hoge zoekrand lager komt te liggen dan de lage zoekrand. Dit zou het spel breken. Met het volgende stukje code toe te voegen, zou je dit probleem kunnen vermijden:
+\emph{UITBREIDING}: Het spel werkt, maar is nog niet fout-vriendelijk. Als je per ongelijk een verkeerd antwoord ingeeft, is de kans groot dat het gekozen getal niet meer in het zoekgebied ligt. Ook zou het kunnen dat de hoge zoekrand lager komt te liggen dan de lage zoekrand. Dit zou het spel breken. Met het volgende stukje code toe te voegen, zou je dit probleem kunnen vermijden:
 
 \begin{lstlisting}[language=Python, caption=Volledige uitwerking van het raadspel in Python]
 if lageRand == hogeRand:
@@ -321,4 +299,9 @@ Na het ontvangen van een aantal kritische kijken kunnen we evalueren als ons ond
 De algemene consensus was dat het project interessant lijkt en zeker leuk om uit te voeren in de les. Ook was de lesvoorbereiding goed opgesteld en werden de eigenschappen van computationeel denken duidelijk uitgewerkt. Tenslotte leek het werken met een Raspberry Pi een interessante uitdaging. 
 
 Het probleem viel bij de meeste leerkrachten bij de keuze van programmeertaal, namelijk Python.
-Volgens Sean Callens ligt het probleem vooral bij de syntax-kennis. Om Python correct te kunnen gebruiken, heb je nood aan een voorkennis over de specifieke syntax. Dit zou in de praktijk een te groot obstakel kunnen vormen voor leerlingen van de eerste graad. Callens stelt dus voor om dit eerder te organiseren in een tweede graad. Scratch zou, volgens Callens, een veel intuïtievere programmeertaal zijn. Hierbij kan er nadruk gelegd worden op het probleemoplossend gedeelte van programmeren, zonder de leerlingen te belasten met syntax-kennis en foutbestendigheid. 
+Volgens Sean Callens\footnote{Leerkracht informatica bij Atheneum Voskenslaan} ligt het probleem vooral bij de syntax-kennis. Om Python correct te kunnen gebruiken, heb je nood aan een voorkennis over de specifieke syntax. Dit zou in de praktijk een te groot obstakel kunnen vormen voor leerlingen van de eerste graad. Callens stelt dus voor om dit eerder te organiseren in een tweede graad. Scratch zou, volgens Callens, een veel intuïtievere programmeertaal zijn. Hierbij kan er nadruk gelegd worden op het probleemoplossend gedeelte van programmeren, zonder de leerlingen te belasten met syntax-kennis en foutbestendigheid. 
+
+Ook volgens Lieve Van Bastelaere\footnote{leerkracht bij VTI Puytenput} zal Python het grootste obstakel vormen. Volgens haar ligt het probleem meer met het niveau van Engels in de eerste graad. Er wordt meer gewerkt met de scratchomgeving. Deze is een stuk gebruiksvriendelijker dan de pythonomgeving. Volgens Van Bastelaere wordt momenteel vooral gewerkt met trail-and-error opgaves om te leren programmeren. Scratch is hiervoor optimaal, aangezien het 'bugs' en fouten in de code zelf opvangt. Bij Python moet je al een idee hebben hoe je een fout kan lezen, laat staan te fixen. Met al deze factoren zou het moeilijk zijn voor de studenten om de aandacht erbij te houden.
+
+
+We kunnen dus concluderen uit de feedback dat vooral de keuze in programmeertaal een probleem zal vormen. de python-syntax zal te moeilijk zijn voor kinderen van de eerste graad om te begrijpen. Om de trail-and-error methode te gebruiken om te leren programmeren, moet de programmeertaal zelf al veel fouten moeten kunnen tegenhouden. Python is hiervoor niet ontworpen. Ze zouden al een foutmelding krijgen van een kleine tikfout.

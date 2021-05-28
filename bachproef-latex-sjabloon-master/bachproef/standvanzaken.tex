@@ -83,7 +83,7 @@ Decompositie betekent: het opdelen van een probleem in kleinere deelproblemen om
 (\cite{Smartschool})
 
 Vervolgens vormt “patroonherkenning” het tweede onderdeel van computationeel denken. Dit kan men oefenen door bijvoorbeeld het soorten en classificeren van gegevens. Opnieuw is dit een cruciale factor in het correct leren programmeren. Als je patronen herkent in bepaalde processen, kan je code schrijven die hergebruikt kan worden in andere plaatsen van de applicatie. Een voorbeeld hiervan is het maken van een confirmatiescherm wanneer je iets zou verwijderen of een belangrijke stap zou uitvoeren in een applicatie.
-(\cite{Smartschool})\\
+(\cite{Smartschool})
 
 Abstractie is iets moeilijker te vatten, maar heeft hetzelfde doel als decompositie: complexiteit weghalen van een groter project. Dit doet men bij abstractie door de belangrijkste elementen over te nemen en de details even te negeren om tot de kern van een probleem te komen. Zo is het oplossen van een vraagstuk wiskunde of fysica een voorbeeld van abstractie: niet elk detail van een vraagstuk is belangrijk om een oplossing te vinden. Ook bij programmeren is bij het ontwerpen van een oplossing niet elk klein detail van belang. Zo leer je efficiënt omgaan met code en maak je het ook beter leesbaar.
 (\cite{Smartschool})
@@ -117,10 +117,22 @@ Zo organiseert Raspberry verschillende workshops en events om het potentieel van
 
 Zoals eerder vermeld in dit onderzoek, vreest de Raspberry Pi Foundation dat de kennis van computers stilaan zou verdwijnen, nu we de computer zelf niet moeten programmeren. Het wil jongeren opnieuw warm maken om bij te leren over de ins en outs van een computer.
 
-Net zoals andere single board computers heeft de Raspberry Pi een goedkope aankoopprijs. Zo koop je een Raspberry Pi 4 Model B met 2GB RAM voor slechts 39,95 euro \footnote{\url{https://www.kiwi-electronics.nl/raspberry-pi-4-model-b-2gb?src=raspberrypi}}. Wanneer je grotere applicaties vlot tegelijk wilt laten draaien, zijn er opties met 4GB en zelfs 8GB RAM. Deze opties zijn echter iets duurder. Zo heeft de 8GB variant een prijskaartje van 87,50 euro\footnote{\url{https://www.raspberrystore.nl/PrestaShop/raspberry-pi-v4/279-raspberry-pi-4b-8gb-765756931199.html?utm_source=RaspberryPi&utm_medium=Shop&utm_campaign=Pi&utm_term=be&src=raspberrypi}}. Nog steeds goedkoop voor een computer, maar misschien toch te duur om massaal in een school aan te kopen. Gelukkig bestaan er goedkopere opties, zoals de Raspberry Pi 3 Model B voor slechts 36,95 euro\footnote{https://yadom.fr/raspberry-pi-3-modele-bp-1gb.html?src=raspberrypi} of de Raspberry Pi voor slechts 10,71 euro\footnote{\url{https://www.sossolutions.nl/raspberry-pi-pico-headers?gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-KTn0mt_aXSp5tb5bKMp8wtOK-3TdIhOoC1gmpO0E6TI8y1Rm6lK-YaAsQSEALw_wcB}}. De laatstgenoemde optie heeft duidelijk minder processing power in vergelijking met de rest, met slechts 512MB aan RAM.
+Net zoals andere single board computers heeft de Raspberry Pi een goedkope aankoopprijs. Zo koop je een Raspberry Pi 4 Model B (zie figuur \ref{fig:raspberry1}) met 2GB RAM voor slechts 39,95 euro \footnote{\url{https://www.kiwi-electronics.nl/raspberry-pi-4-model-b-2gb?src=raspberrypi}}. Wanneer je grotere applicaties vlot tegelijk wilt laten draaien, zijn er opties met 4GB en zelfs 8GB RAM. Deze opties zijn echter iets duurder. Zo heeft de 8GB variant een prijskaartje van 87,50 euro\footnote{\url{https://www.raspberrystore.nl/PrestaShop/raspberry-pi-v4/279-raspberry-pi-4b-8gb-765756931199.html?utm_source=RaspberryPi&utm_medium=Shop&utm_campaign=Pi&utm_term=be&src=raspberrypi}}. Nog steeds goedkoop voor een computer, maar misschien toch te duur om massaal in een school aan te kopen. Gelukkig bestaan er goedkopere opties, zoals de Raspberry Pi 3 Model B voor slechts 36,95 euro\footnote{https://yadom.fr/raspberry-pi-3-modele-bp-1gb.html?src=raspberrypi} of de Raspberry Pi voor slechts 10,71 euro\footnote{\url{https://www.sossolutions.nl/raspberry-pi-pico-headers?gclid=Cj0KCQjwwLKFBhDPARIsAPzPi-KTn0mt_aXSp5tb5bKMp8wtOK-3TdIhOoC1gmpO0E6TI8y1Rm6lK-YaAsQSEALw_wcB}}. De laatstgenoemde optie heeft duidelijk minder processing power in vergelijking met de rest, met slechts 512MB aan RAM.
 De Raspberry heeft ook twee tot vier USB poorten (afhankelijk van het model), een ethernet kabel voor bedraad internet, ingebouwde draadloze connectiviteit zowel voor wifi als bluetooth en twee micro HDMI-poorten, zodat je makkelijk kan verbinden met 2 schermen tegelijk.
 
-Een single board computer heeft een laag energiegebruik en de Raspberry Pi is geen uitzondering. Het heeft enkel een USB-C of microUSB kabel nodig voor stroom (afhankelijk van het model). Deze zijn makkelijk te verkrijgen, aangezien de meeste smartphones dezelfde oplaadkabels gebruiken. Ook is de Raspberry Pi klein van formaat (85.6mm op 56.5mm). Dankzij dit formaat en het feit dat het weinig energie verbruikt, is er geen nood aan een ventilator om alle componenten koel te houden. Dus is de Pi uiterst stil, zelfs tijdens de grootste processen.(\cite{Foundationa}) 
+\begin{figure}
+    \includegraphics[width=\linewidth]{raspberryPi1}
+    \caption{Raspberry Pi 4B}
+    \label{fig:raspberry1}
+\end{figure}
+
+Een single board computer heeft een laag energiegebruik en de Raspberry Pi is geen uitzondering. Het heeft enkel een USB-C of microUSB kabel nodig voor stroom (afhankelijk van het model, zie figuur \ref{fig:raspberry2}). Deze zijn makkelijk te verkrijgen, aangezien de meeste smartphones dezelfde oplaadkabels gebruiken. Ook is de Raspberry Pi klein van formaat (85.6mm op 56.5mm). Dankzij dit formaat en het feit dat het weinig energie verbruikt, is er geen nood aan een ventilator om alle componenten koel te houden. Dus is de Pi uiterst stil, zelfs tijdens de grootste processen.(\cite{Foundationa}) 
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{raspberryPiSpecs}
+    \caption{Technische specificaties van de Raspberry Pi 4B}
+    \label{fig:raspberry2}
+\end{figure}
 
 Tenslotte straalt de Pi uit op vlak van programmeertalen. Zo heeft de Pi zijn eigen besturingssysteem (zoals windows of IoS), genaamd Raspbian OS. Dit zorgt voor een makkelijke instap bij het gebruiken van de Pi. Ook komt het standaard met Python en Scratch: allebei makkelijk te gebruiken programmeertalen. Het hoeft echter daar niet te eindigen, aangezien het ook C++, C en Ruby geïnstalleerd heeft staan. Wanneer dit nog onvoldoende is, kunt u verschillende andere programmeertalen online installeren. Zo ondersteunt de Raspberry Pi zelfs Android applicaties. De Raspberry Pi Foundation heeft zelfs eigen cursussen en kits om de gebruiker te helpen bij elke stap van het programmeer proces \footnote{\url{https://www.raspberrypi.org/learn/}}.(\cite{Pattichis2017,Teja2021,Koelling2016})
 
@@ -134,7 +146,14 @@ De Raspberry Pi is dus niet de perfecte single board computer. Het heeft een goe
 
 \subsection{Arduino}
 
-Arduino, opgericht in 2005 in Ivrea (Italië), is bekend voor het maken van de Arduino lijn van microcontrollers. Een microcontroller is een apparaat met een geïntegreerde schakeling (IC) die wordt gebruikt om andere delen van een elektronisch systeem te besturen. Een Arduino kan dus gebruikt worden om een bepaalde input om te vormen naar een nieuwe output. De oprichters van Arduino zochten een oplossing om snel en makkelijk verschillende elektronische componenten, zoals sensoren en motoren, aan elkaar te koppelen via hardware en software. Dit moest ook goedkoop blijven om niemand te limiteren in hun creativiteit. Met die gedachtegang werd de Arduino een waanzinnig succes zowel bij artiesten\footnote{een voorbeeld van een kunstwerk, gemaakt met een Raspberry Pi: \url{https://www.raspberrypi.org/blog/interactive-origami-art-with-raspberry-pi/}} als in het onderwijs. (\cite{Hughes})
+Arduino, opgericht in 2005 in Ivrea (Italië), is bekend voor het maken van de Arduino lijn van microcontrollers. Een microcontroller is een apparaat met een geïntegreerde schakeling (IC) die wordt gebruikt om andere delen van een elektronisch systeem te besturen. Een Arduino kan dus gebruikt worden om een bepaalde input om te vormen naar een nieuwe output (zie figuur \ref{fig:arduino1}). De oprichters van Arduino zochten een oplossing om snel en makkelijk verschillende elektronische componenten, zoals sensoren en motoren, aan elkaar te koppelen via hardware en software. Dit moest ook goedkoop blijven om niemand te limiteren in hun creativiteit. Met die gedachtegang werd de Arduino een waanzinnig succes zowel bij artiesten\footnote{een voorbeeld van een kunstwerk, gemaakt met een Raspberry Pi: \url{https://www.raspberrypi.org/blog/interactive-origami-art-with-raspberry-pi/}} als in het onderwijs. (\cite{Hughes})
+
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{arduino}
+    \caption{Arduino Uno Rev3}
+    \label{fig:arduino1}
+\end{figure}
 
 De Arduino staat bekend voor zijn makkelijke instap. Met de plug-and-play eigenschap van de Arduino, kan men makkelijk sensoren verbinden met de arduino om zo een input te kunnen registreren. Dankzij de Arduino Integrated Development Environment (IDE) kan men makkelijk deze input omvormen naar een output die kan gestuurd worden naar een output apparaat zoals een motor of zelfs een andere Arduino. Voor de duidelijkheid: een Integrated Development Environment is software die een gebruiker de mogelijkheid geeft om leesbare code te schrijven. Je kan met een Arduino zowel programmeren met de Arduino programmeertaal\footnote{Een variant van C++} als met C of C++. Je kan zelfs andere programmeertalen downloaden.(\cite{Teja2021})
 
@@ -142,9 +161,9 @@ Nog een punt vóór Arduino is zijn beginners vriendelijkheid. Niet alleen omdat
 
 Arduino heeft verschillende prijsklassen. Zijn bekendste model, de Arduino uno, heeft slechts een aankoopprijs van 20 euro. Ook heeft het verschillende starter kits speciaal ontworpen voor educationele toepassingen. Hierdoor staat de Arduino momenteel op de eerste plaats voor de meest geschikte microcontroller van dit onderzoek.
 
-Dus de uitkomst is duidelijk: de Arduino wint het van de Raspberry Pi. Met zijn goedkopere aankoopprijs, kant en klare educationele kits en stroomverlies veiligheid lijkt dit de beste single board computer voor in de les toch? Spijtig genoeg voor de Arduino is dit niet het geval.\\ 
+Dus de uitkomst is duidelijk: de Arduino wint het van de Raspberry Pi. Met zijn goedkopere aankoopprijs, kant en klare educationele kits en stroomverlies veiligheid lijkt dit de beste single board computer voor in de les toch? Spijtig genoeg voor de Arduino is dit niet het geval. 
 
-Zoals eerder vermeld is de Arduino eigenlijk geen single board computer, maar een microcontroller. Een belangrijk aspect van de Arduino is het transformeren van input naar output door het gebruik van sensoren, maar deze 'hardware' kan enkel één applicatie tegelijk draaien. Het beschikt ook niet over een besturingssysteem. Tenslotte mist de Arduino bepaalde eigenschappen die nodig zijn om het een single board computer te noemen, zoals USB-poorten, hdmi-ingangen, ethernet slots en eventuele wifi receivers.\\
+Zoals eerder vermeld is de Arduino eigenlijk geen single board computer, maar een microcontroller. Een belangrijk aspect van de Arduino is het transformeren van input naar output door het gebruik van sensoren, maar deze 'hardware' kan enkel één applicatie tegelijk draaien. Het beschikt ook niet over een besturingssysteem. Tenslotte mist de Arduino bepaalde eigenschappen die nodig zijn om het een single board computer te noemen, zoals USB-poorten, hdmi-ingangen, ethernet slots en eventuele wifi receivers.
 
 Vaak worden de Pi en de Arduino vergeleken omdat ze op het eerste zicht dezelfde taken uitvoeren. Het verschil ligt in het feit dat de Pi veel complexere en meerdere applicaties kan draaien juist omdat niet alles geïntegreerd is op één chip. Omdat de Arduino enkel een microcontroller bevat waarvan zowel de RAM als de opslag als de processor geïntegreerd staan op één chip, verliest het de optie om verschillende programma’s tegelijk te draaien.(\cite{Teja2021,Keim2019,FreeCodeCamp2017})
 
@@ -152,10 +171,23 @@ De Arduino valt in dit onderzoek dus uit, aangezien het geen single board comput
 
 
 \subsection{Micro:bit }
-De Micro:bit, gesponserd door de BBC in Groot-Brittannië, is een leuk stukje tech volledig ontworpen om kinderen en jongeren te leren programmeren. Het is een printplaat met verschillende ingebouwde sensoren. De Micro bit ondersteunt zowel Python als Scratch en Microsoft MakeCode. Dankzij deze verschillende codeertalen kan deze input omgevormd worden naar een concrete actie op de Micro Bit zelf. Zo zijn er bijvoorbeeld een aantal led-lichtjes op de printplaat gemonteerd, om directe feedback te tonen aan de gebruiker. (\cite{Stager2018})
+De Micro:bit (zie figuur \ref{fig:microbit1}), gesponserd door de BBC in Groot-Brittannië, is een leuk stukje tech volledig ontworpen om kinderen en jongeren te leren programmeren. Het is een printplaat met verschillende ingebouwde sensoren. De Micro bit ondersteunt zowel Python als Scratch en Microsoft MakeCode. Dankzij deze verschillende codeertalen kan deze input omgevormd worden naar een concrete actie op de Micro Bit zelf. Zo zijn er bijvoorbeeld een aantal led-lichtjes op de printplaat gemonteerd, om directe feedback te tonen aan de gebruiker. (\cite{Stager2018})
 
-De Micro:bit heeft zoals de vorige, opgesomde voorbeelden een lage energieconsumptie. Wat de Micro:bit zo uniek maakt, zijn de verschillende power opties om de kleine techboard aan de praat te krijgen. Je kan op de klassieke manier een USB-port gebruiken voor stroom, maar ook een battery pack of via de 3V connectoren langs de rand van het toestel. Dit zorgt voor veel flexibiliteit en mobiliteit, iets wat niet kan gezegd worden van de PI.
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{microbit}
+    \caption{Micro:bit}
+    \label{fig:microbit1}
+\end{figure}
+
+De Micro:bit heeft zoals de vorige, opgesomde voorbeelden een lage energieconsumptie. Wat de Micro:bit zo uniek maakt, zijn de verschillende power opties om de kleine techboard aan de praat te krijgen (zie figuur \ref{fig:microbit2}). Je kan op de klassieke manier een USB-port gebruiken voor stroom, maar ook een battery pack of via de 3V connectoren langs de rand van het toestel. Dit zorgt voor veel flexibiliteit en mobiliteit, iets wat niet kan gezegd worden van de PI.
 Dit vernuftig stukje tech beschikt niet enkel over een usb-c connector en wat led-lichtjes. Het heeft een touch-sensor, speaker, radio antenne, 2 analoge knoppen en een microfoon. Hierdoor bespaar je toch wat geld bij het aankopen van sensoren. (\cite{Stager2018})
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{microbitSpecs}
+    \caption{Technische specificaties van de Micro:bit}
+    \label{fig:microbit2}
+\end{figure}
 
 Net zoals de Pi en de Arduino, heeft de Micro:bit een lage aankoopprijs. Zo koop je een Micro:bit GO v2 voor slechts 37,50 euro\footnote{\url{https://www.bol.com/nl/p/microbit-go-v2/9300000019150594/?bltgh=m-pQlfTCD-xYiTss1eNGrA.2_34.36.ProductTitle}}. Dit geeft de Micro:bit een edge boven de Raspberry Pi, die moeilijker online verkrijgbaar is. De Micro:bit heeft ook een intern geheugen, dus is er geen nood aan het kopen van een SD-kaart als geheugen. Hierdoor heeft de Micro:bit een soortgelijke plug-and-play eigenschap van die de Arduino ook bezit.
 
@@ -175,7 +207,14 @@ Toch poseert de Micro:bit zich als een groot concurrent van de Raspberry Pi. Met
 Na het evalueren van deze drie opties blijkt slechts één single board computer het meest geschikt zijn voor het gebruik in een klasomgeving. Zo moet de single board computer niet alleen financieel voordelig zijn, maar moet er ook genoeg documentatie over bestaan om leerkrachten te helpen. Het moet kunnen beschikken over gemakkelijke programmeertalen en het moet voor beginners vriendelijk genoeg zijn, zonder creativiteit en flexibiliteit te limiteren.
 Tenslotte zou de single board computer moeten kunnen opboksen tegen klassieke pc’s om deze te vervangen in de klaslokalen.
 
-Rekening houdend met de beschreven criteria blijft uit de vergelijkende studie slechts één single board computer over: de Raspberry Pi. Het is de enigste volwaardige single board computer die werd opgenomen in dit onderzoek en is de enigste minicomputer die volledig zelfstandig kan werken. De Arduino is gebruiksvriendelijker dan de Raspberry Pi, maar is primitiever in zijn werking en is zelfs geen single board computer. De Micro:bit staat op een dichte tweede plaats. Aangezien de Micro:bit ontworpen is voor het gebruik in de klaslokalen lijkt het de ideale oplossing, maar door zijn nood aan een externe computer kan het moeilijk een klassieke computer vervangen als het op grafisch programmeren aankomt. Hoewel de Raspberry Pi een hogere instap nodig heeft dan voorgenoemde voorbeelden, vormt het de meest geschikte keuze voor dit onderzoek.
+Rekening houdend met de beschreven criteria (zie figuur \ref{fig:swotsbc}) blijft uit de vergelijkende studie slechts één single board computer over: de Raspberry Pi. Het is de enigste volwaardige single board computer die werd opgenomen in dit onderzoek en is de enigste minicomputer die volledig zelfstandig kan werken. De Arduino is gebruiksvriendelijker dan de Raspberry Pi, maar is primitiever in zijn werking en is zelfs geen single board computer. De Micro:bit staat op een dichte tweede plaats. Aangezien de Micro:bit ontworpen is voor het gebruik in de klaslokalen lijkt het de ideale oplossing, maar door zijn nood aan een externe computer kan het moeilijk een klassieke computer vervangen als het op grafisch programmeren aankomt. Hoewel de Raspberry Pi een hogere instap nodig heeft dan voorgenoemde voorbeelden, vormt het de meest geschikte keuze voor dit onderzoek.
+
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{VoorEnNadelenSBC}
+    \caption{SWOT-analyse van de single board computers}
+    \label{fig:swotsbc}
+\end{figure}
 
 \section{Vergelijking van programmeertalen}
 
@@ -184,7 +223,7 @@ Rekening houdend met de beschreven criteria blijft uit de vergelijkende studie s
 Na het bestuderen van de nodige eindtermen en competenties die men moet bereiken in de eerste graad secundair onderwijs en het uitkiezen van de meest geschikte single board computer als leertool, komt nu het moment om de meest geschikte programmeertaal te bepalen voor de proof of concept. Het kiezen van een juiste programmeertaal als starter taal is een belangrijke stap bij het leren programmeren. Zo kan een te moeilijke programmeertaal een gevoel van angst en frustratie opwekken tegenover coderen. Maar een te makkelijke taal kan snel saai worden voor de gebruiker. 
 
 Eerst en vooral is het belangrijk om te begrijpen wat een programmeertaal inhoudt en welke soorten er momenteel bestaan. Zo is niet elke programmeertaal dezelfde en kan de complexiteit enorm verschillen. 
-Een programmeertaal is een set opdrachten, instructies en andere syntaxis gebruiken om software te maken programma\footnote{\url{https://techlib.nl/definition/programming_language.html}}}. Via een programmeertaal kan je communiceren met de hardware van een computer. Spijtig genoeg kan je niet zomaar instructies geven in het Nederlands en verwachten dat de computer het verstaat. De ingegeven taal moet vertaald worden naar een taal die de computer begrijpt. Een programmeertaal bestaat dus in essentie uit twee niveuas: 
+Een programmeertaal is een set opdrachten, instructies en andere syntaxis gebruiken om software te maken programma\footnote{\url{https://techlib.nl/definition/programming_language.html}}. Via een programmeertaal kan je communiceren met de hardware van een computer. Spijtig genoeg kan je niet zomaar instructies geven in het Nederlands en verwachten dat de computer het verstaat. De ingegeven taal moet vertaald worden naar een taal die de computer begrijpt. Een programmeertaal bestaat dus in essentie uit twee niveuas: 
 \begin{itemize}
     \item Programmeertaal op hoog niveau
     \item Programmeertaal op laag niveau
@@ -195,11 +234,11 @@ Een programmeertaal is een set opdrachten, instructies en andere syntaxis gebrui
 
 Programmeertalen komen voor in verschillende soorten. Deze kunnen variëren van structuur tot architectuur. In het belang van dit onderzoek moet men het onderscheid begrijpen tussen text-based programmeertalen en block-based programmeertalen. Men vindt beide terug in een educatieve settings.
 
-Text-based programmeren is de traditionele vorm van programmeren. Hierbij typt de gebruiker lijntjes code uit in een Integrated Development Environment, of kortweg IDE. Een IDE is simpelweg een omgeving om leesbare code te schrijven\footnote{\url{https://www.transip.be/knowledgebase/artikel/3305-wat-is-een-ide/?utm_source=knowledge}}. Je kan bijvoorbeeld geen leesbare code schrijven in Microsoft Word, maar wel in een IDE zoals Visual Studio, Eclipse of Xcode. De lijntjes code worden in de IDE omgezet naar leesbare code voor de computer.\\
+Text-based programmeren is de traditionele vorm van programmeren. Hierbij typt de gebruiker lijntjes code uit in een Integrated Development Environment, of kortweg IDE. Een IDE is simpelweg een omgeving om leesbare code te schrijven\footnote{\url{https://www.transip.be/knowledgebase/artikel/3305-wat-is-een-ide/?utm_source=knowledge}}. Je kan bijvoorbeeld geen leesbare code schrijven in Microsoft Word, maar wel in een IDE zoals Visual Studio, Eclipse of Xcode. De lijntjes code worden in de IDE omgezet naar leesbare code voor de computer.
 
 Een voordeel van text-based programmeren is dat bijna alle professionele programmeertalen text-based zijn. Als je dus leert programmeren met een text-based programmeertaal, kan je makkelijker andere talen begrijpen en implementeren. Een groot nadeel is dat er een bepaalde syntax- en codeer-kennis nodig is om deze optimaal te kunnen gebruiken. De instap is dus groter. 
 
-Block-based programmeren is een nieuwere manier van programmeren en is een stuk gebruiksvriendelijker. Block-based gebruikt het “programming-primitive-as-puzzle-piece” metafoor om programmeren op een meer visuele manier voor te stellen. Zo worden instructies voorgesteld als puzzelstukjes die men in een bepaalde volgorde kan slepen. Naargelang de lengte van het aantal puzzelstukjes en de complexiteit van de instructies kan men op een gemakkelijke en creatieve manier grote taken opsplitsen. Dit is een praktische uitwerking van computationeel denken. De lage complexiteit en het visuele aspect maakt van block-based programmeren een makkelijke eerste stap in de wereld van coderen. \\
+Block-based programmeren is een nieuwere manier van programmeren en is een stuk gebruiksvriendelijker. Block-based gebruikt het “programming-primitive-as-puzzle-piece” metafoor om programmeren op een meer visuele manier voor te stellen. Zo worden instructies voorgesteld als puzzelstukjes die men in een bepaalde volgorde kan slepen. Naargelang de lengte van het aantal puzzelstukjes en de complexiteit van de instructies kan men op een gemakkelijke en creatieve manier grote taken opsplitsen. Dit is een praktische uitwerking van computationeel denken. De lage complexiteit en het visuele aspect maakt van block-based programmeren een makkelijke eerste stap in de wereld van coderen. 
 
 Een nadeel van block-based is dat het te abstract wordt afgebeeld in vergelijking met traditionele programmeertalen. Om professioneel te leren programmeren is men verplicht om de stap te maken van block-based naar text-based. Aangezien beide vormen zo hard verschillen, kan dit weleens een probleem vormen.(\cite{Weintrop2019,Maloney2010})
 
@@ -209,12 +248,18 @@ Nu deze belangrijke principes zijn opgeklaart kunnen we onze twee kandidaten voo
 
 Scratch is een block-based programmeertaal. Ontworpen door de Scratch Foundation als non-profitorganisatie, is deze codetaal speciaal ontworpen om kinderen te leren programmeren, vanaf ongeveer acht jaar oud. Met Scratch kunnen kinderen en jongeren via de Scratch programmeertaal creatieve projecten uitbouwen zoals animaties, muziek en zelfs games. De software is volledig gratis om te gebruiken, dus iedereen kan er mee aan de slag. Scratch straalt uit in zijn gemakkelijk te gebruiken IDE en zijn beginners vriendelijke manier van werken.(\cite{Weintrop2019,Maloney2010})
 
-Zoals vermeld is Scratch block-based: instructies worden voorgesteld als puzzelstukken die men in elkaar kan klikken om acties uit te voeren op het presenteer scherm. Zo is de UI van Scratch opgedeeld in een drie delen:
+Zoals vermeld is Scratch block-based: instructies worden voorgesteld als puzzelstukken die men in elkaar kan klikken om acties uit te voeren op het presenteer scherm. Zo is de UI van Scratch opgedeeld in een drie delen (zie figuur \ref{fig:scratch2}):
 \begin{itemize}
     \item componenten paneel
     \item ontwerp paneel
     \item presentatiepaneel
 \end{itemize}
+
+\begin{figure}
+    \includegraphics[width=\linewidth]{scratchIDE}
+    \caption{Scratch}
+    \label{fig:scratch2}
+\end{figure}
 
 Men sleept de nodige puzzelstukken of componenten van het componenten paneel naar het ontwerp paneel om instructies te koppelen aan elkaar. De componenten met de instructies erin worden aan mekaar gelinkt om acties te kunnen uitvoeren op het presentatiepaneel. Hier worden de instructies gevisualiseerd aan de hand van figuren en props. Zo kan men bijvoorbeeld een mannetje van links naar rechts laten bewegen op het presentatiepaneel door verschillende combinaties te maken in het ontwerp paneel. (\cite{Maloney2010})
 
@@ -234,7 +279,8 @@ Scratch is een solide basis om te leren computationeel denken en programmeren. Z
 
 Python is een klassieke text-based programmeertaal. De gebruiker schrijft zelf de instructies uit die de computer moet uitvoeren. Dit, in tegenstelling tot een grafische programmeertaal zoals Scratch, is de meest gebruikte vorm van programmeren en is de norm in de professionele wereld. Python is een open-source codetaal: iedereen mag er gratis gebruik van maken, zonder te betalen. Dit is niet zo abnormaal in de wereld van codetalen: heel wat programmeertalen zijn open-source. Wat Python uniek maak, is zijn lage complexiteit. In tegenstelling tot bekende programmeertalen zoals Java, is gemakkelijk te lezen en is de instap veel lager. 
 
-Python is wat ze noemen een “interpreted language”. Dit betekent dat de code niet eerst moet gecompileerd worden voordat men de code kan starten. Bij compilatie zal de interpeter lijn per lijn de taal op hoog niveau integraal omzetten naar een laag niveau. Hiermee is het makkelijker om een fout op te sporen in de code, aangezien de code stopt op de lijn waar de fout gevonden is. \cite{Karani2020}
+
+Python is wat ze noemen een “interpreted language”. Dit betekent dat de code niet eerst moet gecompileerd worden voordat men de code kan starten. Bij compilatie zal de interpeter lijn per lijn de taal op hoog niveau integraal omzetten naar een laag niveau. Hiermee is het makkelijker om een fout op te sporen in de code, aangezien de code stopt op de lijn waar de fout gevonden is. (\cite{Karani2020})
 
 In tegenstelling tot Scratch is Python niet enkel gelimiteerd tot een learning tool: Python wordt zowel gebruikt in educationele applicaties als in professionele projecten. Dankzij de flexibiliteit van text-based is er meer vrijheid om nieuwe ideeën te proberen. Je bent niet gelimiteerd aan voorgemaakte puzzelstukken. Zo kan men ook low-level problemen leren aanpakken die bij block-based genegeerd worden. Ook kan men makkelijker andere text-based programmeertalen leren in vergelijking met block-based programmeren.
 
@@ -255,7 +301,7 @@ Beide voorgestelde programmeertalen hebben hun unieke kwaliteiten. Scratch is en
 
 In de aard van dit onderzoek is er echter één programmeertaal die aan de meeste criteria voldoet: Python. Hoewel de instap moeilijker zal zijn bij Python, kan je meer bijleren als je zelf je code moet schrijven in tegenstelling tot voorgekauwde componenten. Met Python leer je elk deel van programmeren kennen, ook het falen. Juist omdat Scratch zo simpel is, negeert het vaak low-level, essentiële aspecten zoals het opvangen van fouten. 
 
-Uit onderzoek van Armony Meerbaum-Salant en Ben-Ari blijkt dat leerlingen die met Scratch werken sneller vaardigheden kunnen leren van computationeel denken, maar dat na verloop van tijd het voordeel van de simpliciteit wegvalt. Met Python leren de studenten iets trager programmeren, maar halen ze na een periode van tijd dezelfde resultaten als de Scratch groep. Hieruit komt dan de vraag of het voordelig is om leerlingen eerst tijd te laten spenderen in het leren van Scratch om dan later toch over te schakelen naar text-based programmeertalen. (\cite{Armoni2015,Fagan2017})\\
+Uit onderzoek van Armony Meerbaum-Salant en Ben-Ari blijkt dat leerlingen die met Scratch werken sneller vaardigheden kunnen leren van computationeel denken, maar dat na verloop van tijd het voordeel van de simpliciteit wegvalt. Met Python leren de studenten iets trager programmeren, maar halen ze na een periode van tijd dezelfde resultaten als de Scratch groep. Hieruit komt dan de vraag of het voordelig is om leerlingen eerst tijd te laten spenderen in het leren van Scratch om dan later toch over te schakelen naar text-based programmeertalen. (\cite{Armoni2015,Fagan2017})
 
 Zelfs de taalbarrière vormt een minder groot probleem, aangezien uit onderzoek bewezen is dat het niveau Engels van vlaamse kinderen al gemiddeld hoger ligt dan vroeger. Er zijn dus weinig redenen om Scratch boven Python te kiezen. (\cite{Denies2015})
 
