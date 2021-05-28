@@ -32,6 +32,7 @@
 @Misc{Denies2015,
   author       = {Katrijn Denies and Liesbet Heyvaert & Rianne Janssen jaar lessen Engels volgden op school. In verschillende and landen of taalgemeenschappen and waaronder Vlaanderen},
   date         = {2015},
+  editor       = {{Levende Talen Magazine}},
   title        = {Hoe staat het met het onderwijs Engels in Vlaanderen? Lessen uit de European Survey on Language Competences},
   file         = {:C\:/Users/warre/OneDrive/Documents/HoGent Mobile/Sem 5/Bachelorproef/Draft literatuurstudie/Referenties/onderwijs engels lezen nog niet opnemen.pdf:PDF},
   journaltitle = {Levende Talen Magazine},
@@ -77,8 +78,9 @@
 }
 
 @Online{Vlaanderen2018,
-  author  = {Onderwijs Vlaanderen},
+  author  = {{Onderwijs Vlaanderen}},
   date    = {2018},
+  editor  = {{Onderwijs Vlaanderen}},
   title   = {Onderwijsdoelen: Wat zijn onderwijsdoelen?},
   url     = {https://onderwijs.vlaanderen.be/nl/onderwijsdoelen},
   urldate = {2021-03-07},
@@ -96,8 +98,9 @@
 @Online{Llinkid2019,
   author  = {Llinkid},
   date    = {2019},
+  editor  = {{Katholiek onderwijs Vlaanderen}},
   title   = {Gemeenschappelijk leerplan ICT - I AB},
-  url     = {https://llinkid.katholiekonderwijs.vlaanderen/#!/leerplan/e28016ef-dd17-4732-9763-b1fc0bb06b3c/doelenlijst},
+  url     = {https://llinkid.katholiekonderwijs.vlaanderen/\#!/leerplan/e28016ef-dd17-4732-9763-b1fc0bb06b3c/doelenlijst},
   urldate = {2021-03-08},
 }
 
@@ -115,7 +118,7 @@
   date    = {2013},
   editor  = {{Oreilly}},
   title   = {Arduino: A technical reference},
-  url     = {https://www.oreilly.com/library/view/arduino-a-technical/9781491934319/ch01.html#:~:text=In 2005, building upon the,Institute Ivrea in Ivrea, Italy},
+  url     = {https://www.oreilly.com/library/view/arduino-a-technical/9781491934319/ch01.html},
   urldate = {2021-05-18},
 }
 
@@ -140,6 +143,7 @@
 @Online{Stager2018,
   author  = {Gary Stager},
   date    = {2018},
+  editor  = {{Invent to Learn}},
   title   = {The micro:bit Matters},
   url     = {https://inventtolearn.com/the-microbit-matters/},
   urldate = {2021-03-22},
@@ -178,15 +182,16 @@
   year        = {2016},
 }
 
-@Thesis{Kuss2018,
+@Paper{Kuss2018,
   author      = {Fabiano Sardenberg Kuss and Marcos A. Castilho and Leticia Mara Peres and Fabiano Silva},
+  citationkey = {Kuss2018},
+  title       = {Aulacast: A Single Board Computer Platform to Support Teaching},
   date        = {2018-01-01},
   institution = {Federal University of Parana},
-  title       = {Aulacast: A Single Board Computer Platform to Support Teaching},
-  type        = {Paper},
-  url         = {http://www.inf.ufpr.br/fskuss/teachersupport.pdf},
   owner       = {jbuy519},
   timestamp   = {2014.03.28},
+  type        = {Paper},
+  url         = {http://www.inf.ufpr.br/fskuss/teachersupport.pdf},
   year        = {2018},
 }
 
@@ -205,13 +210,14 @@
   date    = {2021},
   editor  = {{Vlaams parlement}},
   title   = {Hoe komt een decreet tot stand?},
-  url     = {https://www.vlaamsparlement.be/over-het-vlaams-parlement/hoe-werkt-het-vlaams-parlement/hoe-komt-een-decreet-tot-stand#:~:text=In decreten worden de algemene,ander decreet goed te keuren},
+  url     = {https://www.vlaamsparlement.be/over-het-vlaams-parlement/hoe-werkt-het-vlaams-parlement/hoe-komt-een-decreet-tot-stand},
   urldate = {2021-02-28},
 }
 
 @Online{Vlaanderen2018b,
-  author  = {Onderwijs Vlaanderen},
+  author  = {{Onderwijs Vlaanderen}},
   date    = {2018},
+  editor  = {{Onderwijs Vlaanderen}},
   title   = {Zestien sleutelcompetenties},
   url     = {https://www.kwalificatiesencurriculum.be/zestien-sleutelcompetenties},
   urldate = {2021-02-28},
@@ -255,16 +261,18 @@
 @Online{Teja2021,
   author  = {Ravi Teja},
   date    = {2021-04-05},
+  editor  = {{Electronics Hub}},
   title   = {What are the differences between Raspberry Pi and Arduino?},
-  url     = {https://www.electronicshub.org/raspberry-pi-vs-arduino/#:~:text=The main difference between them,Arduino makes hardware projects simple},
+  url     = {https://www.electronicshub.org/raspberry-pi-vs-arduino/},
   urldate = {2021-03-20},
 }
 
 @Online{FreeCodeCamp2017,
-  author  = {FreeCodeCamp},
+  author  = {{FreeCodeCamp}},
   date    = {2017-04-24},
+  editor  = {{FreeCodeCamp}},
   title   = {Hardware Fundamentals: what exactly is a microcontroller?},
-  url     = {https://www.freecodecamp.org/news/hardware-fundamentals-what-exactly-is-a-microcontroller-8a502a3650dc/#:~:text=A single-board computer is,on a single circuit board.&text=Microcontrollers also don't have,not a full operating system},
+  url     = {https://www.freecodecamp.org/news/hardware-fundamentals-what-exactly-is-a-microcontroller-8a502a3650dc/},
   urldate = {2021-03-29},
 }
 
@@ -273,13 +281,14 @@
   date    = {2019-04-20},
   editor  = {{The Lab Singapore}},
   title   = {Why a Raspberry PI? Raspberry Pi vs Microbit},
-  url     = {https://www.thelab.sg/why-a-raspberry-pi-raspberry-pi-vs-microbit/#:~:text=Raspberry Pi 3 is a,run a full operating system.&text=The BBC Micro Bit is suited to teach the raw,It's highly basic},
+  url     = {https://www.thelab.sg/why-a-raspberry-pi-raspberry-pi-vs-microbit},
   urldate = {2021-03-15},
 }
 
 @Online{Armoni2015,
   author  = {Michal Armoni and Orni Meerbaum-Salant and Mordechai Ben-Ari},
   date    = {2015-02},
+  editor  = {{ACM}},
   title   = {From Scratch to “Real” Programming},
   url     = {https://dl.acm.org/doi/10.1145/2677087},
   urldate = {2021-03-27},
